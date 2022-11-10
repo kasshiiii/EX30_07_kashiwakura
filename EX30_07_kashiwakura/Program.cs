@@ -20,7 +20,7 @@ namespace EX30
             Console.WriteLine($"名前{car.Name} 燃費{car.FuelConsumption}");
             Cat cat = new Cat("スコティッシュフォールド", DateTime.Today, "猫", 30, 30, 60, 20);
             Console.WriteLine($"名前{cat.Name} 猫種{cat.CatType}");
-            Dog dog = new Dog("秋田県", DateTime.Today, "犬", 40,60, 100, 40);
+            Dog dog = new Dog("秋田犬", DateTime.Today, "犬", 40,60, 100, 40);
             Console.WriteLine($"名前{dog.Name} 犬種{dog.DogType}");
 
 
